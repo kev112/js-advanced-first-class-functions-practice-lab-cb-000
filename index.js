@@ -27,6 +27,6 @@ function totalRevenue(drivers) {
   return drivers.reduce(callback, 0)
 }
 
-function totalRevenue(drivers) {
+function averageRevenue(drivers) {
   return totalRevenue(drivers) / drivers.length
 }
